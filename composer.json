@@ -6,30 +6,20 @@
         {
             "name": "Black Box Code",
             "email": "contact@blackboxcode.com"
+        },
+        {
+            "name": "Christopher West",
+            "email": "9ninemind@gmail.com",
+            "role": "architect"
         }
     ],
     "keywords": ["pando ecomm bundle"],
     "license": ["LGPL-3.0"],
     "require": {
-        "blackboxcode/pando-product-provider-bundle": "1.0.0",
-        "blackboxcode/pando-file-bundle": "1.0.0"
+        "blackboxcode/pando-product-provider-bundle": "dev-master",
+        "blackboxcode/pando-file-bundle": "dev-master"
     },
     "autoload": {
         "psr-4": {"BlackBoxCode\\Pando\\Bundle\\ECommBundle\\": ""}
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/BlackBoxRepo/PandoProductProviderBundle"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/BlackBoxRepo/PandoFileBundle"
-        }
-    ],
-    "extra": {
-        "branch-alias": {
-            "dev-master": "develop"
-        }
     }
 }
