@@ -4,6 +4,9 @@ namespace BlackBoxCode\Pando\Bundle\ECommBundle\Model;
 use BlackBoxCode\Pando\Bundle\BaseBundle\Model\IdTrait;
 use Doctrine\ORM\Mapping as ORM;
 
+/**
+ * @ORM\Entity
+ */
 trait ProductOptionValueTrait
 {
     use IdTrait;

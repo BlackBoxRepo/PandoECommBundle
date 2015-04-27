@@ -5,6 +5,9 @@ use BlackBoxCode\Pando\Bundle\BaseBundle\Model\IdTrait;
 use BlackBoxCode\Pando\Bundle\FileBundle\Model\FileInterface;
 use Doctrine\ORM\Mapping as ORM;
 
+/**
+ * @ORM\Entity
+ */
 trait ProductImageTrait
 {
     use IdTrait;

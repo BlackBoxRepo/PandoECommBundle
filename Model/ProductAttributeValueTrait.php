@@ -4,6 +4,10 @@ namespace BlackBoxCode\Pando\Bundle\ECommBundle\Model;
 use BlackBoxCode\Pando\Bundle\BaseBundle\Model\IdTrait;
 use Doctrine\ORM\Mapping as ORM;
 
+/**
+ * @ORM\Entity
+ * @ORM\Table(uniqueConstraints={@ORM\UniqueConstraint(columns={"product_id", "type_id"})})
+ */
 trait ProductAttributeValueTrait
 {
     use IdTrait;

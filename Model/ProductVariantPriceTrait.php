@@ -5,6 +5,9 @@ use BlackBoxCode\Pando\Bundle\BaseBundle\Model\IdTrait;
 use BlackBoxCode\Pando\Bundle\ProductSaleBundle\Model\ProductPriceTypeInterface;
 use Doctrine\ORM\Mapping as ORM;
 
+/**
+ * @ORM\Entity
+ */
 trait ProductVariantPriceTrait
 {
     use IdTrait;
