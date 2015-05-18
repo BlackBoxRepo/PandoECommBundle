@@ -14,7 +14,7 @@ trait ProductOptionValueTrait
     /**
      * @var ProductOptionValueTypeInterface
      *
-     * @ORM\ManyToOne(targetEntity="ProductOptionValueType")
+     * @ORM\ManyToOne(targetEntity="ProductOptionValueType", inversedBy="values")
      * @ORM\JoinColumn(nullable=false)
      */
     private $value;
