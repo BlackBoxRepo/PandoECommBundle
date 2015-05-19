@@ -1,8 +1,8 @@
 <?php
-namespace BlackBoxCode\Pando\Bundle\ECommBundle\Model;
+namespace BlackBoxCode\Pando\ECommBundle\Model;
 
-use BlackBoxCode\Pando\Bundle\BaseBundle\Model\IdInterface;
-use BlackBoxCode\Pando\Bundle\ProductSaleBundle\Model\ProductPriceTypeInterface;
+use BlackBoxCode\Pando\BaseBundle\Model\IdInterface;
+use BlackBoxCode\Pando\ProductSaleBundle\Model\ProductPriceTypeInterface;
 
 interface ProductVariantPriceInterface extends IdInterface
 {

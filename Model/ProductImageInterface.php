@@ -1,8 +1,8 @@
 <?php
-namespace BlackBoxCode\Pando\Bundle\ECommBundle\Model;
+namespace BlackBoxCode\Pando\ECommBundle\Model;
 
-use BlackBoxCode\Pando\Bundle\BaseBundle\Model\IdInterface;
-use BlackBoxCode\Pando\Bundle\FileBundle\Model\FileInterface;
+use BlackBoxCode\Pando\BaseBundle\Model\IdInterface;
+use BlackBoxCode\Pando\FileBundle\Model\FileInterface;
 
 interface ProductImageInterface extends IdInterface
 {

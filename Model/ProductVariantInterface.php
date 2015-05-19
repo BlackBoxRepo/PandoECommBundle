@@ -1,9 +1,9 @@
 <?php
-namespace BlackBoxCode\Pando\Bundle\ECommBundle\Model;
+namespace BlackBoxCode\Pando\ECommBundle\Model;
 
 use Doctrine\Common\Collections\ArrayCollection;
 
-interface ProductVariantInterface extends \BlackBoxCode\Pando\Bundle\ProductSaleBundle\Model\ProductVariantInterface
+interface ProductVariantInterface extends \BlackBoxCode\Pando\ProductSaleBundle\Model\ProductVariantInterface
 {
     /**
      * @return ArrayCollection<ProductVariantImageInterface>
